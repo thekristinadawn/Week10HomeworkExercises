@@ -10,45 +10,14 @@ namespace Week10HomeworkExercises
     {
         static void Main(string[] args)
         {
-            //#1 Console read input of numbers and break at empty. Print sum and average of sequence. 
+            //creating object of class One
+            //One one = new One();
+            //one.SumAndAverage(); //calling method
 
-            //List<int> numbers = new List<int>();
-            //while (true) //while(input != string.Empty)
-            //{
-            //    int input = Convert.ToInt32(Console.ReadLine());
-            //    if (input < 0)
-            //    {
-            //        break;
-            //    }
-            //    if (input == int.Empty)
-            //    {
-            //        break;
-            //    }
-            //    numbers.Add(input);
-            //}
-            //fills a list called numbers until user enters " -1 "
+            //creating object of class Eight
+            //Eight eight = new Eight();
+            //eight.Majorant(); //calling method
 
-            List<int> numbers = new List<int>();
-            bool inputNum;
-            int number;
-            string input = Console.ReadLine();
-            inputNum = int.TryParse(input, out number);
-            while (input != string.Empty)
-
-            {
-                {
-
-                    if (number < 0)
-                    {
-                        break;
-                    }
-                    numbers.Add(number);
-
-                }
-            }
-
-            Console.WriteLine(number);
-            Console.WriteLine("numbers" + numbers);
 
 
 
@@ -56,3 +25,5 @@ namespace Week10HomeworkExercises
         }
     }
 }
+
+
